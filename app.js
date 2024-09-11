@@ -1,4 +1,5 @@
 //async errors
+require("express-async-errors");
 const express = require("express");
 const connectDB = require("./db/connect");
 const notFoundMiddleware = require("./middleware/not-found");
